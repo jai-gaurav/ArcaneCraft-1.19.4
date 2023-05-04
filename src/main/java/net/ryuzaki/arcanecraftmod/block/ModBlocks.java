@@ -33,6 +33,18 @@ public class ModBlocks {
             UniformIntProvider.create(5,9)),
             ModItemGroup.ARCANECRAFT);
 
+    public static final Block RAW_PENUMBRACITE_BLOCK = registerBlock("raw_penumbracite_block",
+            new Block(FabricBlockSettings.of(Material.METAL)
+                    .strength(2f)
+                    .requiresTool()),
+            ModItemGroup.ARCANECRAFT);
+
+    public static final Block RAW_UMBRACITE_BLOCK = registerBlock("raw_umbracite_block",
+            new Block(FabricBlockSettings.of(Material.METAL)
+                    .strength(4f)
+                    .requiresTool()),
+            ModItemGroup.ARCANECRAFT);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

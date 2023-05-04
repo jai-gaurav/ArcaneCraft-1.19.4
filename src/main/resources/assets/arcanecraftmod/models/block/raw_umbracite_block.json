@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "arcanecraftmod:block/raw_umbracite_block"
+  }
+}

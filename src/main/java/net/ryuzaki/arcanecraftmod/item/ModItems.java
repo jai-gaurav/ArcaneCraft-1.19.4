@@ -40,6 +40,12 @@ public class ModItems {
     public static final Item CUT_LAVENDATE = registerItem("cut_lavendate",
             new Item(new Item.Settings()), ModItemGroup.ARCANECRAFT);
 
+    public static final Item RAW_PENUMBRACITE = registerItem("raw_penumbracite",
+            new Item(new Item.Settings()), ModItemGroup.ARCANECRAFT);
+
+    public static final Item RAW_UMBRACITE = registerItem("raw_umbracite",
+            new Item(new Item.Settings()), ModItemGroup.ARCANECRAFT);
+
     private static Item registerItem(String name, Item item, ItemGroup group) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
         return Registry.register(Registries.ITEM, new Identifier(ArcaneCraftMod.MOD_ID, name), item);

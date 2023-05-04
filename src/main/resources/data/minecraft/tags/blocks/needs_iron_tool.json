@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "arcanecraftmod:penumbracite_ore"
+    "arcanecraftmod:penumbracite_ore",
+    "arcanecraftmod:raw_penumbracite_block"
   ]
 }

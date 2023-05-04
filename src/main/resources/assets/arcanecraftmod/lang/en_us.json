@@ -11,7 +11,11 @@
   "item.arcanecraftmod.cut_letheum": "Cut Letheum",
   "item.arcanecraftmod.lavendate": "Lavendate",
   "item.arcanecraftmod.cut_lavendate": "Cut Lavendate",
+  "item.arcanecraftmod.raw_penumbracite": "Raw Penumbracite",
+  "item.arcanecraftmod.raw_umbracite": "Raw Umbracite",
 
+  "block.arcanecraftmod.penumbracite_ore": "Penumbracite Ore",
   "block.arcanecraftmod.umbracite_ore": "Umbracite Ore",
-  "block.arcanecraftmod.penumbracite_ore": "Penumbracite Ore"
+  "block.arcanecraftmod.raw_penumbracite_block": "Block of Raw Penumbracite",
+  "block.arcanecraftmod.raw_umbracite_block": "Block of Raw Umbracite"
 }
