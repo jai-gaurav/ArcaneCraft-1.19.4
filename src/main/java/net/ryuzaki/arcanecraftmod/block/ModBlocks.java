@@ -19,30 +19,32 @@ import net.ryuzaki.arcanecraftmod.item.ModItemGroup;
 public class ModBlocks {
     public static final Block PENUMBRACITE_ORE = registerBlock("penumbracite_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE)
-                    .strength(2f)
+                    .strength(4f, 6f)
                     .requiresTool()
-                    .luminance(2),
+                    .luminance(3),
             UniformIntProvider.create(3,7)),
             ModItemGroup.ARCANECRAFT);
 
     public static final Block UMBRACITE_ORE = registerBlock("umbracite_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE)
-                    .strength(4f)
+                    .strength(6f, 10f)
                     .requiresTool()
-                    .luminance(1),
+                    .luminance(2),
             UniformIntProvider.create(5,9)),
             ModItemGroup.ARCANECRAFT);
 
     public static final Block RAW_PENUMBRACITE_BLOCK = registerBlock("raw_penumbracite_block",
             new Block(FabricBlockSettings.of(Material.METAL)
-                    .strength(2f)
-                    .requiresTool()),
+                    .strength(5f, 8f)
+                    .requiresTool()
+                    .luminance(3)),
             ModItemGroup.ARCANECRAFT);
 
     public static final Block RAW_UMBRACITE_BLOCK = registerBlock("raw_umbracite_block",
             new Block(FabricBlockSettings.of(Material.METAL)
-                    .strength(4f)
-                    .requiresTool()),
+                    .strength(7f, 12f)
+                    .requiresTool()
+                    .luminance(2)),
             ModItemGroup.ARCANECRAFT);
 
 
