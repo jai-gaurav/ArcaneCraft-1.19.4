@@ -1,6 +1,7 @@
 package net.ryuzaki.arcanecraftmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.ryuzaki.arcanecraftmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,5 +12,6 @@ public class ArcaneCraftMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 }
