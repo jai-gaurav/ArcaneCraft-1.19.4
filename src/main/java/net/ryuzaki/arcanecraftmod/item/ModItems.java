@@ -10,12 +10,6 @@ import net.minecraft.util.Identifier;
 import net.ryuzaki.arcanecraftmod.ArcaneCraftMod;
 
 public class ModItems {
-    public static final Item RAW_TANZANITE = registerItem("raw_tanzanite",
-            new Item(new Item.Settings()), ModItemGroup.ARCANECRAFT);
-
-    public static final Item TANZANITE = registerItem("tanzanite",
-            new Item(new Item.Settings()), ModItemGroup.ARCANECRAFT);
-
     public static final Item AQUARINE = registerItem("aquarine",
             new Item(new Item.Settings()), ModItemGroup.ARCANECRAFT);
 
@@ -32,6 +26,18 @@ public class ModItems {
             new Item(new Item.Settings()), ModItemGroup.ARCANECRAFT);
 
     public static final Item CUT_TERRITE = registerItem("cut_territe",
+            new Item(new Item.Settings()), ModItemGroup.ARCANECRAFT);
+
+    public static final Item LETHEUM = registerItem("letheum",
+            new Item(new Item.Settings()), ModItemGroup.ARCANECRAFT);
+
+    public static final Item CUT_LETHEUM = registerItem("cut_letheum",
+            new Item(new Item.Settings()), ModItemGroup.ARCANECRAFT);
+
+    public static final Item LAVENDATE = registerItem("lavendate",
+            new Item(new Item.Settings()), ModItemGroup.ARCANECRAFT);
+
+    public static final Item CUT_LAVENDATE = registerItem("cut_lavendate",
             new Item(new Item.Settings()), ModItemGroup.ARCANECRAFT);
 
     private static Item registerItem(String name, Item item, ItemGroup group) {
